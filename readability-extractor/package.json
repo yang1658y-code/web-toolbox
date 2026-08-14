@@ -1,0 +1,15 @@
+{
+  "name": "readability-extractor",
+  "version": "1.0.0",
+  "description": "Lightweight article text extractor: strips navigation, ads and noise from HTML using a text-density scoring algorithm (no per-site rules).",
+  "main": "extractor.js",
+  "scripts": {
+    "demo": "node demo.js",
+    "test": "node demo.js"
+  },
+  "keywords": ["readability", "web-scraping", "html", "extractor", "text-mining", "crawler"],
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
