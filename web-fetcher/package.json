@@ -1,0 +1,18 @@
+{
+  "name": "web-fetcher",
+  "version": "1.0.0",
+  "description": "Resilient web page fetcher: redirects, proxy support, hard timeouts, 200KB streaming cap — returns clean article text via the readability extractor.",
+  "main": "fetcher.js",
+  "scripts": {
+    "demo": "node demo.js"
+  },
+  "keywords": ["http", "fetch", "crawler", "web-scraping", "proxy", "readability"],
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "optionalDependencies": {
+    "http-proxy-agent": "^7.0.0",
+    "https-proxy-agent": "^7.0.0"
+  }
+}
