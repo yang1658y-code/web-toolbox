@@ -1,0 +1,7 @@
+node_modules/
+npm-debug.log*
+*.log
+*.bak
+.DS_Store
+Thumbs.db
+news-aggregator/output/
