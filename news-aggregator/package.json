@@ -1,0 +1,23 @@
+{
+  "name": "news-aggregator",
+  "version": "1.0.0",
+  "description": "Multi-source news aggregation pipeline: fetch → extract → dedupe → classify → clean structured output. Built on the readability-extractor and web-fetcher modules.",
+  "main": "pipeline.js",
+  "scripts": {
+    "demo": "node demo.js",
+    "demo:live": "node demo.js --live"
+  },
+  "keywords": [
+    "news-aggregator",
+    "rss",
+    "web-scraping",
+    "data-pipeline",
+    "dedupe",
+    "text-classification",
+    "crawler"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
