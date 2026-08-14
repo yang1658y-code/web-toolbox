@@ -1,0 +1,16 @@
+{
+  "name": "web-scraping-toolbox",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web scraping & data extraction toolbox: multi-source news aggregation pipeline + building blocks (readability extractor, resilient fetcher).",
+  "scripts": {
+    "demo": "cd news-aggregator && node demo.js",
+    "demo:live": "cd news-aggregator && node demo.js --live",
+    "demo:extractor": "cd readability-extractor && node demo.js",
+    "demo:fetcher": "cd web-fetcher && node demo.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "license": "MIT"
+}
